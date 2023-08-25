@@ -14,6 +14,6 @@ body {
 main {
   width: 375px;
   margin: 0 auto;
-  background-color: blueviolet;
-  /* padding: 0 15px; */
+  background-color: rgb(204, 190, 218);
+  padding: 0 15px;
 }
