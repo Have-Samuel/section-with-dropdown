@@ -8,12 +8,12 @@
 
 body {
   font-family: 'Epilogue', sans-serif;
-  background-color: #f5f5f5;
+  background-color: #dad3d3;
 }
 
 main {
   width: 375px;
-  margin: 10px auto;
+  margin: 5rem auto;
   background-color: hsl(0, 0%, 98%);
   /* padding: 0 15px; */
 }
@@ -22,15 +22,8 @@ main {
   background-image: url('./images/image-hero-mobile.png');
   background-repeat: no-repeat;
   background-size: contain;
-  /* background-position: center; */
-  height: 281px;
-  /* width: 375px; */
+  height: 300px;
   margin-top: 20px;
-}
-
-.imgs-all img {
-  /* width: 343px; */
-  /* height: 208px; */
 }
 
 .title {
@@ -42,11 +35,9 @@ main {
 }
 
 .text {
-  /* font-weight: 500; */
   font-size: 0.8rem;
   line-height: 18px;
   color: #686868;
-  /* margin-top: 1rem; */
   text-align: center;
   width: 280px;
   margin: 1rem auto;
@@ -64,4 +55,20 @@ main {
   margin: 1rem auto;
   width: 100px;
   font-size: 0.7rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  height: 6rem;
+}
+
+footer img {
+  width: 70px;
+}
+
+.image-2 {
+  width: 50px;
 }
