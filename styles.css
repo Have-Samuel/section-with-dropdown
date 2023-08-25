@@ -27,3 +27,16 @@ main {
   /* width: 375px; */
   margin-top: 20px;
 }
+
+.mo-text {
+  width: 343px;
+  height: 208px;
+}
+
+.mo-text h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #151515;
+  margin-top: 20px;
+  margin-left: 15px;
+}
