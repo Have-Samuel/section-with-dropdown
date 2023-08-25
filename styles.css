@@ -13,7 +13,17 @@ body {
 
 main {
   width: 375px;
-  margin: 0 auto;
-  background-color: rgb(204, 190, 218);
-  padding: 0 15px;
+  margin: 10px auto;
+  background-color: hsl(0, 0%, 98%);
+  /* padding: 0 15px; */
+}
+
+.imgs-all {
+  background-image: url('./images/image-hero-mobile.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* background-position: center; */
+  height: 281px;
+  /* width: 375px; */
+  margin-top: 20px;
 }
