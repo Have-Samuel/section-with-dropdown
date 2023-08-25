@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Epilogue', sans-serif;
+  background-color: #dad3d3;
+}
+
+main {
+  width: 375px;
+  margin: 5rem auto;
+  background-color: hsl(0, 0%, 98%);
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.nav-header .close-icon {
+  cursor: pointer;
+}
+
+.imgs-all {
+  background-image: url('./images/image-hero-mobile.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #151515;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.text {
+  font-size: 0.8rem;
+  line-height: 18px;
+  color: #686868;
+  text-align: center;
+  width: 280px;
+  margin: 1rem auto;
+}
+
+.mo-text a {
+  color: #fff;
+  background: #151515;
+  padding: 0.8rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 1rem auto;
+  width: 100px;
+  font-size: 0.7rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  height: 6rem;
+}
+
+footer img {
+  width: 70px;
+}
+
+.image-2 {
+  width: 50px;
+}
