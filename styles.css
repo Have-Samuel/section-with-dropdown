@@ -13,7 +13,8 @@ body {
 }
 
 main {
-  width: 375px;
+  width: 350px;
+  /* width: 375px; */
   margin: 5rem auto;
   background-color: hsl(0, 0%, 98%);
   position: relative;
@@ -26,16 +27,17 @@ main {
 }
 
 .navbar {
-  width: 69%;
+  /* width: 69%; */
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
   height: 678px;
   background-color: #242221;
-  /* opacity: 0.5; */
+  opacity: 0.5;
   position: absolute;
   top: 0;
-  left: 12.7vh;
+  /* left: 12.7vh; */
+  right: 0;
   transition: right 0.8s cubic-bezier(1, 0, 0, 1);
 }
 
