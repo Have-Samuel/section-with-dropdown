@@ -9,6 +9,7 @@
 body {
   font-family: 'Epilogue', sans-serif;
   background-color: #dad3d3;
+  height: 780px;
 }
 
 main {
@@ -23,7 +24,29 @@ main {
   padding: 1rem;
 }
 
-.nav-header .close-icon {
+.navbar {
+  width: 44%;
+  font-family: 'inter', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
+  height: 780px;
+  background-color: #3c3a39;
+  position: fixed;
+  top: 5rem;
+  right: 12vh;
+  display: flex;
+  flex-direction: column;
+  transition: right 0.8s cubic-bezier(1, 0, 0, 1);
+}
+
+.change {
+  right: 0;
+}
+
+.close-icon {
   cursor: pointer;
 }
 
