@@ -5,6 +5,7 @@ const list = document.querySelectorAll('nav-list > li');
 list.forEach((ele) => {
   ele.addEventListener('click', () => {
     navbar.classList.toggle('change');
+    console.log(list);
   });
 });
 

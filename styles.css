@@ -13,9 +13,10 @@ body {
 }
 
 main {
-  width: 375px;
+  width: 350px;
   margin: 5rem auto;
   background-color: hsl(0, 0%, 98%);
+  position: relative;
 }
 
 .nav-header {
@@ -25,23 +26,17 @@ main {
 }
 
 .navbar {
-  width: 44%;
-  /* font-size: 32px; */
+  /* width: 69%; */
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
-  /* text-align: left; */
-  height: 679px;
-  background-color: #5c5856;
+  height: 678px;
+  background-color: #242221;
   opacity: 0.5;
-  position: fixed;
-  top: 5rem;
-  right: 12vh;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  transition: right 0.8s cubic-bezier(1, 0, 0, 1);
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* transition: right 0.8s cubic-bezier(1, 0, 0, 1); */
 }
 
 .change {
@@ -51,7 +46,7 @@ main {
 .close-icon {
   cursor: pointer;
   margin-top: 1rem;
-  margin-left: 13rem;
+  margin-left: 11.5rem;
 }
 
 .imgs-all {
