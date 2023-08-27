@@ -26,19 +26,21 @@ main {
 
 .navbar {
   width: 44%;
-  font-family: 'inter', sans-serif;
-  font-size: 32px;
+  /* font-size: 32px; */
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
-  text-align: left;
-  height: 780px;
-  background-color: #3c3a39;
+  /* text-align: left; */
+  height: 679px;
+  background-color: #5c5856;
+  /* opacity: 0.5; */
   position: fixed;
   top: 5rem;
   right: 12vh;
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
   transition: right 0.8s cubic-bezier(1, 0, 0, 1);
 }
 
