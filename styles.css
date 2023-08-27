@@ -35,9 +35,8 @@ main {
   opacity: 0.5;
   position: absolute;
   top: 0;
-  /* left: 12.7vh; */
   right: 0;
-  transition: right 0.8s cubic-bezier(1, 0, 0, 1);
+  /* transition: right 0.8s cubic-bezier(1, 0, 0, 1); */
 }
 
 .change {
