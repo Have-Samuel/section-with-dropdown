@@ -33,7 +33,7 @@ main {
   /* text-align: left; */
   height: 679px;
   background-color: #5c5856;
-  /* opacity: 0.5; */
+  opacity: 0.5;
   position: fixed;
   top: 5rem;
   right: 12vh;
@@ -50,6 +50,8 @@ main {
 
 .close-icon {
   cursor: pointer;
+  margin-top: 1rem;
+  margin-left: 13rem;
 }
 
 .imgs-all {
