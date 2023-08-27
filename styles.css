@@ -9,6 +9,7 @@
 body {
   font-family: 'Epilogue', sans-serif;
   background-color: #dad3d3;
+  height: 780px;
 }
 
 main {
@@ -23,8 +24,34 @@ main {
   padding: 1rem;
 }
 
-.nav-header .close-icon {
+.navbar {
+  width: 44%;
+  /* font-size: 32px; */
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  /* text-align: left; */
+  height: 679px;
+  background-color: #5c5856;
+  opacity: 0.5;
+  position: fixed;
+  top: 5rem;
+  right: 12vh;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  transition: right 0.8s cubic-bezier(1, 0, 0, 1);
+}
+
+.change {
+  right: 0;
+}
+
+.close-icon {
   cursor: pointer;
+  margin-top: 1rem;
+  margin-left: 13rem;
 }
 
 .imgs-all {
