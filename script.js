@@ -12,3 +12,5 @@ list.forEach((ele) => {
 menuIcon.addEventListener('click', () => {
   navbar.classList.toggle('change');
 });
+
+// DropDown Icon
