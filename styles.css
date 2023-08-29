@@ -32,7 +32,7 @@ main {
   line-height: 44px;
   height: 678px;
   background-color: #242221;
-  opacity: 0.5;
+  /* opacity: 0.5; */
   position: absolute;
   top: 0;
   right: 0;
@@ -55,6 +55,8 @@ aside {
 .nav-list li a {
   text-decoration: none;
   color: #686868;
+  font-size: 0.8rem;
+  padding-right: 0.5rem;
 }
 
 .change {
