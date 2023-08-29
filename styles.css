@@ -39,6 +39,14 @@ main {
   /* transition: right 0.8s cubic-bezier(1, 0, 0, 1); */
 }
 
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* height: 100%; */
+  padding: 1rem 0;
+}
+
 .change {
   right: 0;
 }
