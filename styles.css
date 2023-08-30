@@ -88,6 +88,12 @@ button {
   cursor: pointer;
 }
 
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
 .imgs-all {
   background-image: url('./images/image-hero-mobile.png');
   background-repeat: no-repeat;
