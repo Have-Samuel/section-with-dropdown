@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/2f10e5b748.js" crossorigin="anonymous"></script>
   <title> Frontend Mentor | Intro section with dropdown navigation</title>
   <link rel="stylesheet" href="./styles.css">
 </head>
@@ -16,19 +19,26 @@
       <img class="close-icon" src="./images/icon-menu.svg" alt="close icon">
     <ul class="nav-list">
       <li class="nav-item">
-        <a href="#cArDs" class="nav-link">Features</a>
+        <a href="#" class="nav-link">Features</a>
+        <img src="./images/icon-arrow-down.svg" alt="">
       </li>
+      <div class="dropdown-container">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
       <li class="nav-item">
-        <a href="#aboutme" class="nav-link">Company</a>
+        <a href="#" class="nav-link">Company</a>
+        <img src="./images/icon-arrow-down.svg" alt="">
       </li>
-      <li class="nav-item">
-        <a href="#contact-me" class="nav-link">Careers</a>
+      <li>
+        <a href="#" class="nav-link">Careers</a>
       </li>
-      <li class="nav-item">
-        <a href="#contact-me" class="nav-link">About</a>
+      <li>
+        <a href="#" class="nav-link">About</a>
       </li>
     </ul>
-    <div><span>login</span></div>
+    <div class="login"><span>login</span></div>
     <button type="button">Register</button>
   </aside>
     <div class="imgs-all"></div>
