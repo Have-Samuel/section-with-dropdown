@@ -90,17 +90,18 @@ button {
 
 .dropdown-container {
   /* display: none; */
-  display: flex;
-  flex-direction: column;
   background-color: #262626;
   padding-left: 8px;
+  display: flex;
+  flex-direction: column;
 }
 
 .dropdown-container a {
   color: red;
-  /* display: flex; */
-  justify-content: center;
-  flex-direction: column;
+}
+
+.dropdown-container a img {
+  margin-right: 0.8rem;
 }
 
 .imgs-all {
