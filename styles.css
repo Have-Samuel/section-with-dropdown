@@ -90,13 +90,15 @@ button {
 
 .dropdown-container {
   /* display: none; */
+  display: flex;
+  flex-direction: column;
   background-color: #262626;
   padding-left: 8px;
 }
 
 .dropdown-container a {
   color: red;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   flex-direction: column;
 }
