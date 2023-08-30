@@ -35,11 +35,8 @@ main {
   position: absolute;
   top: 0;
   right: 0;
-  /* transition: right 0.8s cubic-bezier(1, 0, 0, 1); */
-}
-
-aside {
   text-align: center;
+  /* transition: right 0.8s cubic-bezier(1, 0, 0, 1); */
 }
 
 .nav-list {
@@ -58,9 +55,9 @@ aside {
   padding-right: 0.5rem;
 }
 
-.change {
+/* .change {
   right: 0;
-}
+} */
 
 .close-icon {
   cursor: pointer;
@@ -86,6 +83,10 @@ button {
   border: 2px solid #151515;
   font-size: 0.8rem;
   cursor: pointer;
+}
+
+.nav-item {
+  
 }
 
 .dropdown-container {
