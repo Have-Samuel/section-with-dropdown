@@ -54,6 +54,20 @@ main {
   margin-left: 1.5rem;
 }
 
+.mo-text a {
+  color: #fff;
+  background: #151515;
+  padding: 0.8rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 1rem auto;
+  width: 100px;
+  font-size: 0.7rem;
+}
+
 .nav-list li a {
   text-decoration: none;
   color: #686868;
@@ -129,19 +143,7 @@ button {
   margin: 1rem auto;
 }
 
-.mo-text a {
-  color: #fff;
-  background: #151515;
-  padding: 0.8rem;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  margin: 1rem auto;
-  width: 100px;
-  font-size: 0.7rem;
-}
+
 
 footer {
   display: flex;
