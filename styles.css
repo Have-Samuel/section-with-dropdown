@@ -68,6 +68,10 @@ main {
   font-size: 0.7rem;
 }
 
+.dropdown-container a {
+  color: red;
+}
+
 .nav-list li a {
   text-decoration: none;
   color: #686868;
@@ -110,8 +114,8 @@ button {
   flex-direction: column;
 }
 
-.dropdown-container a {
-  color: red;
+footer img {
+  width: 70px;
 }
 
 .dropdown-container a img {
@@ -143,18 +147,12 @@ button {
   margin: 1rem auto;
 }
 
-
-
 footer {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
   height: 6rem;
-}
-
-footer img {
-  width: 70px;
 }
 
 .image-2 {
