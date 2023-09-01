@@ -106,11 +106,17 @@ button {
   flex-direction: column;
 }
 
-.active .dropdown-container a {
+.active .dropdown-container .dc-item {
   display: block;
 }
 
-.active .nav-item .nav-link img {
+.active .nav-link {
+  background-color: #fff;
+  color: #151515;
+  border-radius: 10px;
+}
+
+.active .nav-link img {
   transform: rotate(180deg);
 }
 
