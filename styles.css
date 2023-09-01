@@ -101,10 +101,17 @@ button {
 
 .dropdown-container {
   /* display: none; */
-  background-color: #262626;
   padding-left: 8px;
   display: flex;
   flex-direction: column;
+}
+
+.active .dropdown-container a {
+  display: block;
+}
+
+.active .nav-item img {
+  transform: rotate(180deg);
 }
 
 footer img {
