@@ -14,4 +14,11 @@ menuIcon.addEventListener('click', () => {
 });
 
 // DropDown Icon
-const links = document.querySelectorAll('')
+const links = document.querySelectorAll('.dropdown-container');
+
+links.forEach((link) => {
+  link.addEventListener('click', () => {
+    link.classList.value.includes('cative');
+    link.classLink.toggle('active');
+  });
+});
