@@ -31,6 +31,7 @@ main {
   line-height: 44px;
   height: 678px;
   background-color: #242221;
+
   /* opacity: 0.5; */
   position: absolute;
   top: 0;
@@ -57,8 +58,10 @@ main {
 .nav-link span {
   cursor: pointer;
 }
+
 .dropdown-container {
   /* display: block; */
+
   /* padding-left: 8px;
   display: flex;
   flex-direction: column; */
@@ -69,26 +72,6 @@ main {
   overflow: auto;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   z-index: 1;
-}
-
-.dropdown-container a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.active .dropdown-container a {
-  display: block;
-  color: chocolate;
-}
-
-.active .nav-link {
-  color: #686262;
-}
-
-.active .nav-link img {
-  transform: rotate(180deg);
 }
 
 .mo-text a {
@@ -105,11 +88,39 @@ main {
   font-size: 0.7rem;
 }
 
+.dropdown-container a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
 .nav-list li a {
   text-decoration: none;
   color: #686868;
   font-size: 0.8rem;
   padding-right: 0.5rem;
+}
+
+.active .dropdown-container a {
+  display: block;
+  color: chocolate;
+}
+
+.active .nav-link {
+  color: #686262;
+}
+
+footer img {
+  width: 70px;
+}
+
+.dropdown-container a img {
+  margin-right: 0.8rem;
+}
+
+.active .nav-link img {
+  transform: rotate(180deg);
 }
 
 .close-icon {
@@ -138,14 +149,6 @@ button {
   cursor: pointer;
   margin: 0 auto;
   display: flex;
-}
-
-footer img {
-  width: 70px;
-}
-
-.dropdown-container a img {
-  margin-right: 0.8rem;
 }
 
 .imgs-all {
