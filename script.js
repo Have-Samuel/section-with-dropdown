@@ -14,3 +14,4 @@ menuIcon.addEventListener('click', () => {
 });
 
 // DropDown Icon
+const links = document.querySelectorAll('')
