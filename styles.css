@@ -116,7 +116,7 @@ button {
   border-radius: 10px;
 }
 
-.active .nav-link img {
+.active .nav-item img {
   transform: rotate(180deg);
 }
 
