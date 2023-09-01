@@ -9,16 +9,17 @@ list.forEach((ele) => {
   });
 });
 
-menuIcon.addEventListener('click', () => {
-  navbar.classList.toggle('change');
-});
+// menuIcon.addEventListener('click', () => {
+//   navbar.classList.toggle('change');
+// });
 
 // DropDown Icon
-const links = document.querySelectorAll('.dropdown-container');
+const links = document.querySelectorAll('.nav-item');
 
 links.forEach((link) => {
   link.addEventListener('click', () => {
-    link.classList.value.includes('cative');
-    link.classLink.toggle('active');
+    link.classList.value.includes('active');
+    link.classList.toggle('active');
+    console.log(link);
   });
 });
