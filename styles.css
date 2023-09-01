@@ -110,7 +110,7 @@ button {
   display: block;
 }
 
-.active .nav-item img {
+.active .nav-item .nav-link img {
   transform: rotate(180deg);
 }
 
