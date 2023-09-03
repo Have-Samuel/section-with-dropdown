@@ -53,9 +53,6 @@ main {
   text-decoration: none;
   padding: 0.5rem 0;
   width: 100%;
-}
-
-.nav-link span {
   cursor: pointer;
 }
 
@@ -121,6 +118,9 @@ footer img {
 
 .active .nav-link img {
   transform: rotate(180deg);
+  font-size: 1rem;
+  color: red;
+  border: 2px solid yellow;
 }
 
 .close-icon {
