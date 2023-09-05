@@ -19,5 +19,3 @@ function myFunction() {
 }
 
 myFunction();
-
-// Close the dropdown if the user clicks outside of it
