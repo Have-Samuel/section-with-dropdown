@@ -187,3 +187,28 @@ footer {
 .image-2 {
   width: 50px;
 }
+
+@media (min-width: 1200px) {
+  body {
+    font-family: 'Epilogue', sans-serif;
+    background-color: #dad3d3;
+    height: 800px;
+  }
+
+  main {
+    width: 1200px;
+    margin: 8rem auto;
+  }
+
+  .navbar {
+    
+  }
+
+  .imgs-all {
+    background-image: url('./images/image-hero-desktop.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    margin-top: 20px;
+  }
+}
