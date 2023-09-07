@@ -188,12 +188,12 @@ footer {
   body {
     font-family: 'Epilogue', sans-serif;
     background-color: #dad3d3;
-    height: 800px;
+    height: 700px;
   }
 
   main {
     width: 1200px;
-    height: 700px;
+    height: 650px;
     margin: 8rem auto;
   }
 
@@ -233,11 +233,9 @@ footer {
     margin-left: 1rem;
   }
 
-  /* .second-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  } */
+  .second-content {
+    margin-top: 3rem;
+  }
 
   .imgs-all {
     background-image: url('./images/image-hero-desktop.png');
@@ -249,7 +247,6 @@ footer {
   }
 
   .mo-text {
-    /* width: 490px; */
     position: absolute;
     top: 10rem;
     left: 10rem;
@@ -273,5 +270,12 @@ footer {
 
   .mo-text a {
     margin: 2rem 0;
+  }
+
+  footer {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10rem;
+    margin-top: 1rem;
   }
 }
