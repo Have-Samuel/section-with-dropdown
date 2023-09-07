@@ -141,6 +141,12 @@ button {
   border: none;
 }
 
+/* .second-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+
 .imgs-all {
   background-image: url('./images/image-hero-mobile.png');
   background-repeat: no-repeat;
@@ -187,6 +193,7 @@ footer {
 
   main {
     width: 1200px;
+    height: 700px;
     margin: 8rem auto;
   }
 
@@ -225,12 +232,35 @@ footer {
     margin-left: 1rem;
   }
 
-  .second-content {
-    display: inline-block;
-    margin: 0 auto;
-  }
+  /* .second-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  } */
 
   .imgs-all {
     background-image: url('./images/image-hero-desktop.png');
+    background-size: contain;
+    height: 340px;
+    position: relative;
+    left: 51rem;
+    top: 3rem;
+  }
+
+  .mo-text {
+    /* width: 490px; */
+    position: absolute;
+    top: 10rem;
+    left: 10rem;
+    height: 640px;
+  }
+
+  .title {
+    width: 440px;
+    align-items: flex-start;
+    text-align: left;
+    font-size: 3rem;
+    font-weight: 700;
   }
 }
+
