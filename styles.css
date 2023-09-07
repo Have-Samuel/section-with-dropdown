@@ -200,6 +200,10 @@ footer {
     margin: 8rem auto;
   }
 
+  .navbar {
+    display: none;
+  }
+
   .imgs-all {
     background-image: url('./images/image-hero-desktop.png');
     background-repeat: no-repeat;
