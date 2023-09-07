@@ -29,10 +29,9 @@ main {
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
-  height: 678px;
+  height: 780px;
   background-color: #242221;
-
-  /* opacity: 0.5; */
+  opacity: 0.5;
   position: absolute;
   top: 0;
   right: 0;
@@ -43,8 +42,8 @@ main {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  margin-left: 1.5rem;
   list-style: none;
+  margin: auto 2rem;
 }
 
 .nav-link {
@@ -57,11 +56,6 @@ main {
 }
 
 .dropdown-container {
-  /* display: block; */
-
-  /* padding-left: 8px;
-  display: flex;
-  flex-direction: column; */
   display: none;
   position: absolute;
   background-color: #f1f1f1;
@@ -83,6 +77,7 @@ main {
   margin: 1rem auto;
   width: 100px;
   font-size: 0.7rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
 }
 
 .dropdown-container a {
@@ -131,25 +126,27 @@ footer img {
 }
 
 .login {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-  margin-top: 1rem;
   color: #686868;
   font-size: 0.8rem;
+  margin: 0 auto;
+  cursor: pointer;
 }
 
 button {
   color: #686868;
   padding: 0.5rem 4rem;
   border-radius: 12px;
-  border: 2px solid #151515;
   font-size: 0.8rem;
   cursor: pointer;
-  margin: 0 auto;
-  display: flex;
+  text-decoration: none;
+  border: none;
 }
+
+/* .second-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
 
 .imgs-all {
   background-image: url('./images/image-hero-mobile.png');
@@ -192,23 +189,94 @@ footer {
   body {
     font-family: 'Epilogue', sans-serif;
     background-color: #dad3d3;
-    height: 800px;
+    height: 700px;
   }
 
   main {
     width: 1200px;
+    height: 650px;
     margin: 8rem auto;
   }
 
   .navbar {
-    
+    display: none;
+  }
+
+  .nav-header {
+    padding: 1rem;
+    margin-left: 2rem;
+  }
+
+  .login {
+    color: #504d4d;
+    font-size: 0.8rem;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-left: 33rem;
+  }
+
+  button {
+    border: 1px solid #151515;
+    padding: 0.5rem 2rem;
+    margin-left: 1.2rem;
+    background-color: #fff;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+  }
+
+  .nav-list li {
+    margin-left: 1rem;
+  }
+
+  .second-content {
+    margin-top: 3rem;
   }
 
   .imgs-all {
     background-image: url('./images/image-hero-desktop.png');
-    background-repeat: no-repeat;
     background-size: contain;
-    height: 300px;
-    margin-top: 20px;
+    height: 340px;
+    position: relative;
+    left: 51rem;
+    top: 3rem;
+  }
+
+  .mo-text {
+    position: absolute;
+    top: 10rem;
+    left: 10rem;
+    height: 640px;
+  }
+
+  .title {
+    width: 440px;
+    align-items: flex-start;
+    text-align: left;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  .text {
+    width: 340px;
+    text-align: left;
+    padding-top: 2rem;
+    margin: 0;
+  }
+
+  .mo-text a {
+    margin: 2rem 0;
+  }
+
+  footer {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10rem;
+    margin-top: 1rem;
   }
 }
