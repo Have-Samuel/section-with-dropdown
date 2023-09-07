@@ -31,8 +31,7 @@ main {
   line-height: 44px;
   height: 780px;
   background-color: #242221;
-
-  /* opacity: 0.5; */
+  opacity: 0.5;
   position: absolute;
   top: 0;
   right: 0;
@@ -43,8 +42,6 @@ main {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  /* margin-left: 1.5rem; */
-  /* margin-right: 1.5rem; */
   list-style: none;
   margin: auto 2rem;
 }
@@ -59,11 +56,6 @@ main {
 }
 
 .dropdown-container {
-  /* display: block; */
-
-  /* padding-left: 8px;
-  display: flex;
-  flex-direction: column; */
   display: none;
   position: absolute;
   background-color: #f1f1f1;
@@ -145,7 +137,6 @@ button {
   border-radius: 12px;
   font-size: 0.8rem;
   cursor: pointer;
-  /* margin: 0 auto 0 0.2rem; */
   text-decoration: none;
   border: none;
 }
@@ -214,9 +205,6 @@ footer {
     margin: 0 auto;
     cursor: pointer;
     margin-left: 33rem;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
   }
 
   button {
@@ -237,10 +225,12 @@ footer {
     margin-left: 1rem;
   }
 
+  .second-content {
+    display: inline-block;
+    margin: 0 auto;
+  }
+
   .imgs-all {
     background-image: url('./images/image-hero-desktop.png');
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
   }
 }
