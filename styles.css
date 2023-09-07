@@ -204,11 +204,29 @@ footer {
     display: none;
   }
 
+  .nav-header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+  }
+
+  .nav-list li {
+    margin-left: 1.5rem;
+  }
+
   .imgs-all {
     background-image: url('./images/image-hero-desktop.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
   }
 }
