@@ -207,11 +207,12 @@ footer {
     padding: 1rem;
   }
 
-  .login {
+  .nav-list .login span {
     color: #eb0f0f;
     font-size: 0.8rem;
     margin: 0 auto;
     cursor: pointer;
+    border: 1px solid #eb0f0f;
   }
 
   .nav-list {
