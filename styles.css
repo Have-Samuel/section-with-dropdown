@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Epilogue', sans-serif;
-  background-color: #dad3d3;
+  /* background-color: #dad3d3; */
   height: 780px;
 }
 
@@ -142,11 +142,11 @@ button {
   border: none;
 }
 
-/* .second-content {
+.second-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-} */
+}
 
 .imgs-all {
   background-image: url('./images/image-hero-mobile.png');
@@ -189,13 +189,14 @@ footer {
   body {
     font-family: 'Epilogue', sans-serif;
     background-color: #dad3d3;
-    height: 700px;
+    height: 300px;
   }
 
   main {
     width: 1200px;
     height: 650px;
     margin: 8rem auto;
+    position: relative;
   }
 
   .navbar {
@@ -237,6 +238,7 @@ footer {
 
   .second-content {
     margin-top: 3rem;
+    position: relative;
   }
 
   .imgs-all {
@@ -244,13 +246,13 @@ footer {
     background-size: contain;
     height: 340px;
     position: relative;
-    left: 51rem;
+    right: -51rem;
     top: 3rem;
   }
 
   .mo-text {
     position: absolute;
-    top: 10rem;
+    top: 5rem;
     left: 10rem;
     height: 640px;
   }
