@@ -8,7 +8,6 @@
 
 body {
   font-family: 'Epilogue', sans-serif;
-  /* background-color: #dad3d3; */
   height: 780px;
 }
 
@@ -258,7 +257,6 @@ footer {
   }
 
   .title {
-    width: 440px;
     align-items: flex-start;
     text-align: left;
     font-size: 3rem;
