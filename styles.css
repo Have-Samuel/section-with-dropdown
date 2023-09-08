@@ -189,13 +189,12 @@ footer {
     font-family: 'Epilogue', sans-serif;
     background-color: #dad3d3;
     height: 300px;
+    position: relative;
   }
 
   main {
     width: 1200px;
     height: 650px;
-    margin: 8rem auto;
-    position: relative;
   }
 
   .navbar {
@@ -208,10 +207,10 @@ footer {
   }
 
   .login {
-    color: #504d4d;
+    /* color: #504d4d;
     font-size: 0.8rem;
     margin: 0 auto;
-    cursor: pointer;
+    cursor: pointer; */
     margin-left: 33rem;
   }
 
