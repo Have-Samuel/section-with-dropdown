@@ -236,22 +236,24 @@ footer {
 
   .second-content {
     margin-top: 3rem;
-    position: relative;
+    /* position: relative; */
   }
 
   .imgs-all {
     background-image: url('./images/image-hero-desktop.png');
     background-size: contain;
-    height: 340px;
-    position: relative;
-    right: -51rem;
-    top: 3rem;
+    /* height: 340px; */
+    /* position: relative; */
+    /* right: -51rem; */
+    /* top: 3rem; */
+    float: right;
+    width: 580px;
   }
 
   .mo-text {
-    position: absolute;
+    /* position: absolute;
     top: 5rem;
-    left: 10rem;
+    left: 10rem; */
     height: 640px;
   }
 
