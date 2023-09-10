@@ -184,6 +184,19 @@ footer {
   width: 50px;
 }
 
+/* .imgs-all-d {
+  display: none;
+}
+
+.imgs-all-m {
+  display: block;
+  background-image: url('./images/image-hero-mobile.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 300px;
+  margin-top: 20px;
+} */
+
 @media (min-width: 1200px) {
   body {
     font-family: 'Epilogue', sans-serif;
@@ -207,11 +220,15 @@ footer {
   }
 
   .login {
-    /* color: #504d4d;
+    color: #504d4d;
     font-size: 0.8rem;
     margin: 0 auto;
-    cursor: pointer; */
+    cursor: pointer;
     margin-left: 33rem;
+  }
+
+  .large-size {
+    margin-top: 1rem;
   }
 
   button {
@@ -228,6 +245,7 @@ footer {
     align-items: center;
     justify-content: center;
     list-style: none;
+    margin-top: 1rem;
   }
 
   .nav-list li {
@@ -236,22 +254,23 @@ footer {
 
   .second-content {
     margin-top: 3rem;
-    position: relative;
   }
 
-  .imgs-all {
+  #floater {
+    position: absolute;
+    top: 8rem;
+    right: -2rem;
+    width: 480px;
+    height: 380px;
     background-image: url('./images/image-hero-desktop.png');
     background-size: contain;
-    height: 340px;
-    position: relative;
-    right: -51rem;
-    top: 3rem;
   }
 
   .mo-text {
     position: absolute;
-    top: 5rem;
+    top: 9rem;
     left: 10rem;
+    width: 340px;
     height: 640px;
   }
 
@@ -277,6 +296,6 @@ footer {
     display: flex;
     justify-content: flex-start;
     margin-left: 10rem;
-    margin-top: 1rem;
+    margin-top: 21rem;
   }
 }
