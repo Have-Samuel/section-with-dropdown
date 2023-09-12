@@ -30,7 +30,7 @@ main {
   line-height: 44px;
   height: 780px;
   background-color: #242221;
-  opacity: 0.5;
+  /* opacity: 0.5; */
   position: absolute;
   top: 0;
   right: 0;
