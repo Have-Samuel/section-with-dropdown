@@ -30,7 +30,7 @@ main {
   line-height: 44px;
   height: 780px;
   background-color: #242221;
-  /* opacity: 0.5; */
+  opacity: 0.5;
   position: absolute;
   top: 0;
   right: 0;
@@ -52,6 +52,10 @@ main {
   padding: 0.5rem 0;
   width: 100%;
   cursor: pointer;
+}
+
+.nav-link img {
+  margin-left: 0.2rem;
 }
 
 .dropdown-container {
