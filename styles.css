@@ -42,7 +42,7 @@ main {
   align-items: flex-start;
   justify-content: center;
   list-style: none;
-  margin: auto 2rem;
+  margin: auto 1rem;
 }
 
 .nav-link {
