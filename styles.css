@@ -73,16 +73,6 @@ footer img {
   z-index: 1;
 }
 
-.dropdown-container-2 {
-  /* display: none; */
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  overflow: auto;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
 
 
 .mo-text a {
