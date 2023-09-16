@@ -46,6 +46,13 @@ main {
   height: 50%;
 }
 
+.nav-list li a {
+  text-decoration: none;
+  color: #686868;
+  font-size: 0.8rem;
+  padding-right: 0.5rem;
+}
+
 .nav-link {
   color: #686868;
   font-size: 0.8rem;
