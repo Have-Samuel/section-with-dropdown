@@ -53,6 +53,21 @@ main {
   display: block;
 }
 
+.mo-text a {
+  color: #fff;
+  background: #151515;
+  padding: 0.8rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 1rem auto;
+  width: 100px;
+  font-size: 0.7rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+
 .nav-list li a {
   text-decoration: none;
   color: #686868;
@@ -85,21 +100,6 @@ footer img {
   overflow: auto;
   border: 2px solid red;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
-.mo-text a {
-  color: #fff;
-  background: #151515;
-  padding: 0.8rem;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  margin: 1rem auto;
-  width: 100px;
-  font-size: 0.7rem;
-  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
 }
 
 .nav-list li a {
