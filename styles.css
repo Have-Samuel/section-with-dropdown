@@ -58,6 +58,11 @@ main {
   /* display: none; */
 }
 
+.dropdown-mobi li:hover {
+  cursor: pointer;
+  font-weight: 500;
+}
+
 footer img {
   width: 70px;
 }
