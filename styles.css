@@ -28,12 +28,13 @@ main {
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
-  /* height: 780px; */
+  height: 780px;
   background-color: #242221;
   opacity: 0.5;
   position: absolute;
   top: 0;
   right: 0;
+  width: 70%;
 }
 
 .nav-list {
@@ -46,7 +47,28 @@ main {
   height: 50%;
 }
 
+.dropdown-main {
+  color: black;
+  padding: 5px 6px;
+  text-decoration: none;
+  display: block;
+}
+
 .dropdown-main a {
+  color: black;
+  padding: 5px 6px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-sub {
+  color: black;
+  padding: 5px 6px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-sub a {
   color: black;
   padding: 5px 6px;
   text-decoration: none;
@@ -80,7 +102,7 @@ main {
   font-size: 0.8rem;
   text-decoration: none;
   padding: 0.5rem 0;
-  /* width: 100%; */
+  width: 100%;
   cursor: pointer;
 }
 
