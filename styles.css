@@ -50,6 +50,11 @@ main {
   text-decoration: none;
 }
 
+.feature img {
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
 .dropdown-mobi a img {
   margin-right: 0.8rem;
 }
@@ -80,8 +85,13 @@ main {
   color: #686868;
   font-size: 0.8rem;
   text-decoration: none;
-  padding: 0.5rem 0;
+  padding: 0;
   width: 100%;
+  border: 2px solid red;
+}
+
+.feature span {
+  cursor: pointer;
 }
 
 footer img {
@@ -190,18 +200,18 @@ footer {
   width: 50px;
 }
 
-.active .drop-up {
+.active .feature {
   color: #1e1f36;
   font-weight: 700;
   line-height: 16.12px;
   font-size: 13px;
 }
 
-.active .drop-up a {
+.active .dropdown-mobi a {
   display: block;
 }
 
-.active .drop-up img {
+.active .feature img {
   transform: rotate(180deg);
 }
 
