@@ -30,7 +30,7 @@ main {
   line-height: 44px;
   height: 780px;
   background-color: #242221;
-  opacity: 0.5;
+  /* opacity: 0.5; */
   position: absolute;
   top: 0;
   right: 0;
@@ -47,32 +47,13 @@ main {
   height: 50%;
 }
 
-.dropdown-main {
+.dropdown-mobi {
+  display: flex;
+  flex-direction: column;
+  margin: auto 1rem;
   color: black;
   padding: 5px 6px;
   text-decoration: none;
-  display: block;
-}
-
-.dropdown-main a {
-  color: black;
-  padding: 5px 6px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-sub {
-  color: black;
-  padding: 5px 6px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-sub a {
-  color: black;
-  padding: 5px 6px;
-  text-decoration: none;
-  display: block;
 }
 
 .mo-text a {
