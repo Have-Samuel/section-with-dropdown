@@ -1,0 +1,1 @@
+const dropUp = document.querySelector('.drop-up');
