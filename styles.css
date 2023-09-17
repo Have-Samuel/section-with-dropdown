@@ -51,12 +51,11 @@ main {
 }
 
 .dropdown-mobi {
-  display: flex;
-  flex-direction: column;
   margin: auto 1rem;
-  color: black;
-  padding: 5px 6px;
-  text-decoration: none;
+  list-style: none;
+  font-size: 0.7rem;
+  color: #686868;
+  /* display: none; */
 }
 
 footer img {
