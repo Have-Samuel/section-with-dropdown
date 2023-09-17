@@ -46,7 +46,7 @@ main {
   height: 50%;
 }
 
-.dropdown-container a {
+.dropdown-main a {
   color: black;
   padding: 5px 6px;
   text-decoration: none;
@@ -92,7 +92,7 @@ footer img {
   margin-left: 0.2rem;
 }
 
-.dropdown-container {
+.dropdown-main {
   /* display: none; */
   position: absolute;
   background-color: #f1f1f1;
