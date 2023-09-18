@@ -51,7 +51,8 @@ main {
 }
 
 .dropdown-mobi {
-  margin: auto 1rem;
+  background-color: #fff;
+  padding: 10px;
   list-style: none;
   font-size: 0.7rem;
   color: #686868;
