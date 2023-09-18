@@ -239,10 +239,10 @@ footer {
   }
 
   .nav-header {
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem;
-}
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
 
   .navbar {
     display: none;
