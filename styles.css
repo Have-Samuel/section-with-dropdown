@@ -151,12 +151,45 @@ footer img {
   border: 2px solid yellow;
 } */
 
+.humburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+}
+
+@media (max-width: 768px) {
+  .humburger {
+    display: block;
+  }
+
+  .humburger.change .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .humburger.change .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .humburger.change .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
+/* 
 .close-icon {
   cursor: pointer;
   margin-top: 1rem;
   margin-left: 11.5rem;
   padding-right: 1rem;
-}
+} */
 
 .login {
   color: #686868;
