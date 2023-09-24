@@ -182,7 +182,25 @@ footer img {
   .humburger.change .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
+
+  .navbar {
+    /* display: none; */
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .navbar.change {
+    left: 0;
+  }
 }
+
 /* 
 .close-icon {
   cursor: pointer;
