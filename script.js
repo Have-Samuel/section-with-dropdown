@@ -25,3 +25,9 @@
 // };
 
 const humburger = document.querySelector('.humburger');
+const navbar = document.querySelector('.navbar');
+
+humburger.addEventListener('click', () => {
+  humburger.classList.toggle('change');
+  navbar.classList.toggle('change');
+})
