@@ -35,6 +35,18 @@ main {
   width: 70%;
 }
 
+.nav-header {
+  /* font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  background-color: #3f3e3d;
+  height: 715px;
+  position: absolute;
+  top: 0;
+  right: -100%;
+  width: 70%; */
+}
+
 .another-color {
   background-color: #979797;
 }
