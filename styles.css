@@ -19,9 +19,9 @@ main {
   position: relative;
 }
 
-.nav-header {
+/* .nav-header {
   background-color: #504d4d;
-}
+} */
 
 .navbar {
   font-style: normal;
@@ -193,15 +193,6 @@ footer img {
   right: 0;
 }
 
-
-/* 
-.close-icon {
-  cursor: pointer;
-  margin-top: 1rem;
-  margin-left: 11.5rem;
-  padding-right: 1rem;
-} */
-
 .login {
   color: #686868;
   font-size: 0.8rem;
@@ -291,15 +282,11 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
+    margin-left: 2rem;
   }
 
   .navbar {
     display: none;
-  }
-
-  .nav-header {
-    padding: 1rem;
-    margin-left: 2rem;
   }
 
   .dropdown-container {
@@ -321,10 +308,6 @@ footer {
   .mo-text a {
     margin: 2rem 0;
   }
-
-  /* .nav-list li a {
-    padding-right: 0;
-  } */
 
   button {
     border: 1px solid #151515;
