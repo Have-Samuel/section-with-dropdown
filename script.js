@@ -34,11 +34,8 @@ humburger.addEventListener('click', () => {
   const main = document.querySelector('main');
 
   if (navbar.classList.contains('change')) {
-    // main.style.backgroundColor = 'pink';
     main.classList.add('another-color');
-  }
-  else {
-    // main.style.backgroundColor = 'white';
+  } else {
     main.classList.remove('another-color');
   }
 });
