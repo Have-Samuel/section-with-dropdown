@@ -23,7 +23,7 @@ main {
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
-  background-color: #fafafa;
+  background-color: #fff;
   height: 716px;
   position: absolute;
   top: 0;
@@ -98,6 +98,11 @@ main {
   color: #686868;
   font-size: 0.8rem;
   text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  font-weight: 700;
 }
 
 .mo-text a {
@@ -159,10 +164,17 @@ footer img {
 
 .feature span {
   cursor: pointer;
+  font-weight: 500;
 }
 
 .company span {
   cursor: pointer;
+  font-weight: 500;
+}
+
+.feature span:hover,
+.company span:hover {
+  font-weight: 700;
 }
 
 .bar {
@@ -215,7 +227,8 @@ button {
   font-size: 0.8rem;
   cursor: pointer;
   text-decoration: none;
-  border: none;
+  border: 1px solid #686868;
+  background-color: #fff;
 }
 
 .second-content {
