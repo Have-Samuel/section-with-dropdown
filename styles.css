@@ -23,12 +23,12 @@ main {
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
-  background-color: #3f3e3d;
-  height: 715px;
+  background-color: #fafafa;
+  height: 716px;
   position: absolute;
   top: 0;
-  right: -400%;
-  width: 70%;
+  right: 500%;
+  width: 67.2%;
 }
 
 .another-color {
@@ -68,7 +68,7 @@ main {
 .dropdown-mobi li {
   display: none;
   margin-left: 1rem;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .dropdown-mobi li:hover {
@@ -97,7 +97,6 @@ main {
   display: flex;
   color: #686868;
   font-size: 0.8rem;
-  font-weight: 500;
   text-decoration: none;
 }
 
@@ -140,10 +139,6 @@ footer img {
   cursor: pointer;
 }
 
-/* .nav-link img {
-  margin-left: 0.2rem;
-} */
-
 .dropdown-mobi li img {
   margin-right: 0.8rem;
 }
@@ -160,6 +155,14 @@ footer img {
   color: #686868;
   font-size: 0.8rem;
   padding-right: 0.9rem;
+}
+
+.feature span {
+  cursor: pointer;
+}
+
+.company span {
+  cursor: pointer;
 }
 
 .bar {
@@ -194,9 +197,9 @@ footer img {
   right: 0;
 }
 
-.nav-header.change {
+/* .nav-header.change {
   right: 0;
-}
+} */
 
 .login {
   color: #686868;
@@ -270,7 +273,7 @@ footer {
   display: none;
 }
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   body {
     font-family: 'Epilogue', sans-serif;
     background-color: #dad3d3;
@@ -377,4 +380,4 @@ footer {
     margin-left: 10rem;
     margin-top: 21rem;
   }
-}
+} */
