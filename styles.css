@@ -23,13 +23,11 @@ main {
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
-  height: 654px;
-  background-color: #242221;
-
-  /* opacity: 0.5; */
+  background-color: #3f3e3d;
+  height: 715px;
   position: absolute;
   top: 0;
-  right: 0;
+  right: -100%;
   width: 70%;
 }
 
@@ -65,8 +63,7 @@ main {
 }
 
 .dropdown-mobi li {
-  /* display: none; */
-  /* padding: 0.5rem; */
+  display: none;
   margin-left: 1rem;
 }
 
@@ -168,9 +165,9 @@ footer img {
 
 .bar {
   display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
+  width: 20px;
+  height: 2px;
+  margin: 6px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: #070707;
@@ -192,18 +189,6 @@ footer img {
 
 .humburger.change .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
-}
-
-.navbar {
-  /* display: none; */
-  right: -100%;
-  top: 0;
-  gap: 0;
-  flex-direction: column;
-  /* justify-content: center; */
-  /* width: 100%; */
-  /* text-align: center; */
-  transition: 0s;
 }
 
 .navbar.change {
