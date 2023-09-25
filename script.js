@@ -3,7 +3,8 @@
 
 // Hamburger menu, when you click on it, the menu appears
 const humburger = document.querySelector('.humburger');
-const navbar = document.querySelector('.navbar');
+// const navbar = document.querySelector('.navbar');
+const navbar = document.querySelector('.nav-header');
 
 humburger.addEventListener('click', () => {
   humburger.classList.toggle('change');
