@@ -8,7 +8,7 @@
 }
 
 body {
-  /* height: 780px; */
+  height: 780px;
   background-color: #dbd9d9;
 }
 
@@ -46,6 +46,10 @@ main {
   justify-content: center;
   list-style: none;
   margin: auto 1rem;
+}
+
+.nav-item-1 {
+  margin: 2rem 0 0 0;
 }
 
 .dropdown-mobi {
@@ -200,7 +204,7 @@ footer img {
     /* justify-content: center; */
     /* width: 100%; */
     /* text-align: center; */
-    transition: 0.01s;
+    transition: 0s;
   }
 
   .navbar.change {
