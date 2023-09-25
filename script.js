@@ -1,6 +1,3 @@
-// Clickable arrow to make the dropdown menu appear
-
-
 // Hamburger menu, when you click on it, the menu appears
 const humburger = document.querySelector('.humburger');
 const navbar = document.querySelector('.navbar');
@@ -18,3 +15,5 @@ humburger.addEventListener('click', () => {
     main.classList.remove('another-color');
   }
 });
+
+// Clickable arrow to make the dropdown menu appear
