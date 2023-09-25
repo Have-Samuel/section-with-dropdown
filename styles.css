@@ -33,6 +33,13 @@ main {
   width: 70%;
 }
 
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
 .nav-list {
   display: flex;
   flex-direction: column;
@@ -163,12 +170,13 @@ footer img {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #fff;
+  background-color: #070707;
 }
 
 @media (max-width: 768px) {
   .humburger {
     display: block;
+    z-index: 100;
   }
 
   .humburger.change .bar:nth-child(2) {
@@ -185,19 +193,18 @@ footer img {
 
   .navbar {
     /* display: none; */
-    position: fixed;
-    left: -90%;
-    top: 70px;
+    right: -100%;
+    top: 0;
     gap: 0;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     /* width: 100%; */
-    text-align: center;
-    transition: 0.3s;
+    /* text-align: center; */
+    transition: 0.01s;
   }
 
   .navbar.change {
-    left: 0;
+    right: 0;
   }
 }
 
