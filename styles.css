@@ -33,6 +33,10 @@ main {
   width: 70%;
 }
 
+.another-color {
+  background-color: #bbb5b5;
+}
+
 .topnav {
   display: flex;
   justify-content: space-between;
