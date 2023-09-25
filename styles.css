@@ -68,7 +68,6 @@ main {
 .dropdown-mobi li {
   display: none;
   margin-left: 1rem;
-  /* cursor: pointer; */
 }
 
 .dropdown-mobi li:hover {
