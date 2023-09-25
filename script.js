@@ -30,4 +30,15 @@ const navbar = document.querySelector('.navbar');
 humburger.addEventListener('click', () => {
   humburger.classList.toggle('change');
   navbar.classList.toggle('change');
-})
+  // When the navbar is open, we get a color change on the page
+  const main = document.querySelector('main');
+
+  if (navbar.classList.contains('change')) {
+    // main.style.backgroundColor = 'pink';
+    main.classList.add('another-color');
+  }
+  else {
+    // main.style.backgroundColor = 'white';
+    main.classList.remove('another-color');
+  }
+});
