@@ -19,20 +19,16 @@ main {
   position: relative;
 }
 
-/* .nav-header {
-  background-color: #504d4d;
-} */
-
 .navbar {
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
-  background-color: #3f3e3d;
-  height: 715px;
+  background-color: #fff;
+  height: 716px;
   position: absolute;
   top: 0;
-  right: -100%;
-  width: 70%;
+  right: 500%;
+  width: 67.2%;
 }
 
 .another-color {
@@ -51,11 +47,12 @@ main {
   flex-direction: column;
   justify-content: center;
   list-style: none;
-  margin: auto 1rem;
+  margin: 3rem 1.5rem 0 1.5rem;
+  line-height: 44px;
 }
 
 .nav-item-1 {
-  margin: 2rem 0 0 0;
+  margin: 1rem 0 0 0;
 }
 
 .dropdown-mobi {
@@ -69,9 +66,8 @@ main {
 }
 
 .dropdown-mobi li {
-  /* display: none; */
+  display: none;
   margin-left: 1rem;
-  cursor: pointer;
 }
 
 .dropdown-mobi li:hover {
@@ -82,18 +78,30 @@ main {
   display: flex;
   background-color: #fff;
   flex-direction: column;
-  margin: 1rem;
   padding: 0 1rem;
   border-radius: 1rem;
   line-height: 20px;
 }
 
 .dropdown-container a {
+  display: none;
   text-decoration: none;
   color: #686868;
   font-size: 0.7rem;
   font-weight: 500;
   margin: 0.5rem 0;
+}
+
+.nav-link {
+  display: flex;
+  color: #686868;
+  font-size: 0.8rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  font-weight: 700;
 }
 
 .mo-text a {
@@ -135,10 +143,6 @@ footer img {
   cursor: pointer;
 }
 
-.nav-link img {
-  margin-left: 0.2rem;
-}
-
 .dropdown-mobi li img {
   margin-right: 0.8rem;
 }
@@ -155,6 +159,21 @@ footer img {
   color: #686868;
   font-size: 0.8rem;
   padding-right: 0.9rem;
+}
+
+.feature span {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.company span {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.feature span:hover,
+.company span:hover {
+  font-weight: 700;
 }
 
 .bar {
@@ -189,15 +208,16 @@ footer img {
   right: 0;
 }
 
-.nav-header.change {
+/* .nav-header.change {
   right: 0;
-}
+} */
 
 .login {
   color: #686868;
   font-size: 0.8rem;
   margin: 0 auto;
   cursor: pointer;
+  font-weight: 500;
 }
 
 button {
@@ -207,7 +227,13 @@ button {
   font-size: 0.8rem;
   cursor: pointer;
   text-decoration: none;
-  border: none;
+  border: 1px solid #686868;
+  background-color: #fff;
+}
+
+button:hover {
+  background-color: #686868;
+  color: #fff;
 }
 
 .second-content {
@@ -265,13 +291,13 @@ footer {
   display: none;
 }
 
-@media (min-width: 1200px) {
+/*  @media (min-width: 1200px) {
   body {
     font-family: 'Epilogue', sans-serif;
     background-color: #dad3d3;
     height: 300px;
     position: relative;
-  }
+ }
 
   main {
     width: 1200px;
@@ -372,4 +398,4 @@ footer {
     margin-left: 10rem;
     margin-top: 21rem;
   }
-}
+} */
