@@ -291,13 +291,13 @@ footer {
   display: none;
 }
 
-@media (min-width: 1200px) {
+/*  @media (min-width: 1200px) {
   body {
     font-family: 'Epilogue', sans-serif;
     background-color: #dad3d3;
     height: 300px;
     position: relative;
-/*   }
+ }
 
   main {
     width: 1200px;
