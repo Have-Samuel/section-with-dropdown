@@ -275,6 +275,13 @@ footer {
   width: 50px;
 }
 
+.active .feature {
+  color: #1e1f36;
+  font-weight: 700;
+  line-height: 16.12px;
+  font-size: 13px;
+}
+
 .active .dropdown-mobi li {
   display: block;
 }
