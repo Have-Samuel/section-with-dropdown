@@ -17,3 +17,9 @@ humburger.addEventListener('click', () => {
 });
 
 // Clickable arrow to make the dropdown menu appear
+const arrowOne = document.querySelector('.arrow-down');
+
+arrowOne.addEventListener('click', () => {
+  const dropdownOne = document.querySelector('.dropdown-one');
+  dropdownOne.classList.toggle('active');
+});
