@@ -150,9 +150,6 @@ footer img {
 
 .active .feature {
   color: #1e1f36;
-  font-weight: 700;
-  line-height: 16.12px;
-  font-size: 13px;
 }
 
 .active .feature,
@@ -317,21 +314,78 @@ footer {
   main {
     width: 1200px;
     height: 650px;
+    position: relative;
+  }
+
+  .topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
   }
 
   .nav-header_desk {
     display: flex;
-    justify-content: space-between;
-    /* padding: 1rem; */
-    /* margin-left: 2rem; */
+  }
+
+  .nav-list {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    vertical-align: middle;
+    display: flex;
+    margin: 1rem 1.5rem 0 1.5rem;
+    line-height: 44px;
   }
 
   .navbar {
     display: none;
   }
 
+  .nav-item-1 {
+    margin: 0;
+  }
+
   .dropdown-container {
-    margin-left: -4rem;
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    padding: 0 1rem;
+    border-radius: 1rem;
+    line-height: 15px;
+    margin-right: -2rem;
+    margin-bottom: -7rem;
+  }
+
+  .nav-list li {
+    margin-left: 1rem;
+    /* vertical-align: middle; */
+  }
+
+  .nav-list li .feature {
+    /* margin-bottom: 0.9rem; */
+    /* vertical-align: middle; */
+  }
+
+  .feature {
+    /* margin-top: 0.9rem; */
+    /* vertical-align: middle; */
+    position: absolute;
+    top: 1rem;
+    left: 10rem;
+  }
+
+  .company {
+    position: absolute;
+    top: 1rem;
+    left: 16rem;
+    margin-top: 0;
+    /* vertical-align: middle; */
+  }
+
+  .active .company {
+    margin-bottom: 0;
   }
 
   .login {
@@ -340,10 +394,6 @@ footer {
     margin: 0 auto;
     cursor: pointer;
     margin-left: 33rem;
-  }
-
-  .large-size {
-    margin-top: 1rem;
   }
 
   .mo-text a {
@@ -359,27 +409,13 @@ footer {
   }
 
   .nav-list {
-    display: flex;
+    /* display: flex; */
     flex-direction: row;
     align-items: center;
     justify-content: center;
     list-style: none;
     margin-top: 0;
     vertical-align: middle;
-  }
-
-  .nav-list li {
-    margin-left: 1rem;
-    vertical-align: middle;
-  }
-
-  .company {
-    margin-top: 0.9rem;
-    vertical-align: middle;
-  }
-
-  .second-content {
-    /* margin-top: 3rem; */
   }
 
   #floater {
