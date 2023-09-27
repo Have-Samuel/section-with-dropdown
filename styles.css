@@ -24,7 +24,7 @@ main {
   font-weight: 700;
   line-height: 44px;
   background-color: #fff;
-  height: 684px;
+  height: 651px;
   position: absolute;
   top: 0;
   right: 500%;
@@ -114,10 +114,6 @@ main {
 }
 
 .title {
-  /* font-size: 2rem;
-  font-weight: 700;
-  color: #151515;
-  margin-top: 2rem; */
   text-align: center;
 }
 
