@@ -15,7 +15,7 @@ body {
 main {
   width: 350px;
   margin: 5rem auto;
-  background-color: hsl(0, 0%, 98%);
+  background-color: rgb(250, 250, 250);
   position: relative;
 }
 
@@ -24,7 +24,7 @@ main {
   font-weight: 700;
   line-height: 44px;
   background-color: #fff;
-  height: 716px;
+  height: 651px;
   position: absolute;
   top: 0;
   right: 500%;
@@ -81,6 +81,7 @@ main {
   padding: 0 1rem;
   border-radius: 1rem;
   line-height: 20px;
+  margin-left: 1rem;
 }
 
 .dropdown-container a {
@@ -102,6 +103,27 @@ main {
 
 .nav-link:hover {
   font-weight: 700;
+}
+
+.imgs-all {
+  background-image: url('./images/image-hero-mobile.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.title {
+  text-align: center;
+}
+
+.text {
+  font-size: 0.8rem;
+  line-height: 18px;
+  color: #686868;
+  text-align: center;
+  width: 280px;
+  margin: 1rem auto;
 }
 
 .mo-text a {
@@ -147,11 +169,22 @@ footer img {
   margin-right: 0.8rem;
 }
 
-.active .feature {
+.active .feature,
+.active .company {
   color: #1e1f36;
   font-weight: 700;
   line-height: 16.12px;
   font-size: 13px;
+}
+
+.active .dropdown-mobi li,
+.active .dropdown-container a {
+  display: block;
+}
+
+.active .feature img,
+.active .company img {
+  transform: rotate(180deg);
 }
 
 .nav-list li .feature {
@@ -208,10 +241,6 @@ footer img {
   right: 0;
 }
 
-/* .nav-header.change {
-  right: 0;
-} */
-
 .login {
   color: #686868;
   font-size: 0.8rem;
@@ -242,31 +271,6 @@ button:hover {
   justify-content: center;
 }
 
-.imgs-all {
-  background-image: url('./images/image-hero-mobile.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 300px;
-  margin-top: 20px;
-}
-
-.title {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #151515;
-  margin-top: 2rem;
-  text-align: center;
-}
-
-.text {
-  font-size: 0.8rem;
-  line-height: 18px;
-  color: #686868;
-  text-align: center;
-  width: 280px;
-  margin: 1rem auto;
-}
-
 footer {
   display: flex;
   justify-content: center;
@@ -279,44 +283,80 @@ footer {
   width: 50px;
 }
 
-.active .dropdown-mobi li {
-  display: block;
-}
-
-.active .feature img {
-  transform: rotate(180deg);
-}
-
 .wash {
   display: none;
 }
 
-/*  @media (min-width: 1200px) {
+.nav-header_desk {
+  display: none;
+}
+
+/* @media (min-width: 1200px) {
+  .humburger {
+    display: none;
+  }
+
   body {
     font-family: 'Epilogue', sans-serif;
     background-color: #dad3d3;
     height: 300px;
     position: relative;
- }
+  }
 
   main {
     width: 1200px;
     height: 650px;
+    position: relative;
   }
 
   .nav-header {
     display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    margin-left: 2rem;
+    flex-direction: column;
   }
 
   .navbar {
     display: none;
   }
 
+  .nav-item-1 {
+    margin: 0;
+  }
+
   .dropdown-container {
-    margin-left: -4rem;
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    padding: 0 1rem;
+    border-radius: 1rem;
+    line-height: 15px;
+    margin-right: -2rem;
+    margin-bottom: -7rem;
+  }
+
+  .nav-list li {
+    margin-left: 1rem;
+  }
+
+  .nav-list .feature {
+    position: absolute;
+    top: 1rem;
+    left: 10rem;
+  }
+
+  .company {
+    position: absolute;
+    top: 1rem;
+    left: 16rem;
+    margin-top: 0;
+  }
+
+  .active .company {
+    margin-bottom: 0;
+  }
+
+  .active .feature {
+    margin-bottom: 0;
+    line-height: 0;
   }
 
   .login {
@@ -325,10 +365,6 @@ footer {
     margin: 0 auto;
     cursor: pointer;
     margin-left: 33rem;
-  }
-
-  .large-size {
-    margin-top: 1rem;
   }
 
   .mo-text a {
@@ -349,15 +385,8 @@ footer {
     align-items: center;
     justify-content: center;
     list-style: none;
-    margin-top: 1rem;
-  }
-
-  .nav-list li {
-    margin-left: 1rem;
-  }
-
-  .second-content {
-    margin-top: 3rem;
+    margin-top: 0;
+    vertical-align: middle;
   }
 
   #floater {
