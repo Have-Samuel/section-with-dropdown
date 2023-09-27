@@ -16,10 +16,17 @@ humburger.addEventListener('click', () => {
   }
 });
 
-// Clickable arrow to make the dropdown menu appear
+// Clickable arrow to make the dropdown menu appear - 1
 const arrows = document.querySelector('#drop-up');
 
 arrows.addEventListener('click', () => {
   arrows.classList.toggle('active');
   // arrows.classList.toggle('active');
+});
+
+// Clickable arrow to make the dropdown menu appear - 2
+const secArrow = document.querySelector('#drop-it');
+
+secArrow.addEventListener('click', () => {
+  secArrow.classList.toggle('active');
 });
