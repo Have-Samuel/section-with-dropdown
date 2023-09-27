@@ -24,7 +24,7 @@ main {
   font-weight: 700;
   line-height: 44px;
   background-color: #fff;
-  height: 716px;
+  height: 684px;
   position: absolute;
   top: 0;
   right: 500%;
@@ -103,6 +103,31 @@ main {
 
 .nav-link:hover {
   font-weight: 700;
+}
+
+.imgs-all {
+  background-image: url('./images/image-hero-mobile.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.title {
+  /* font-size: 2rem;
+  font-weight: 700;
+  color: #151515;
+  margin-top: 2rem; */
+  text-align: center;
+}
+
+.text {
+  font-size: 0.8rem;
+  line-height: 18px;
+  color: #686868;
+  text-align: center;
+  width: 280px;
+  margin: 1rem auto;
 }
 
 .mo-text a {
@@ -250,31 +275,6 @@ button:hover {
   justify-content: center;
 }
 
-.imgs-all {
-  background-image: url('./images/image-hero-mobile.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 300px;
-  margin-top: 20px;
-}
-
-.title {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #151515;
-  margin-top: 2rem;
-  text-align: center;
-}
-
-.text {
-  font-size: 0.8rem;
-  line-height: 18px;
-  color: #686868;
-  text-align: center;
-  width: 280px;
-  margin: 1rem auto;
-}
-
 footer {
   display: flex;
   justify-content: center;
@@ -384,7 +384,7 @@ footer {
   }
 
   .nav-list {
-    /* display: flex; */
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
