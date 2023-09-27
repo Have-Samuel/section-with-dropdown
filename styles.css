@@ -81,6 +81,7 @@ main {
   padding: 0 1rem;
   border-radius: 1rem;
   line-height: 20px;
+  margin-left: 1rem;
 }
 
 .dropdown-container a {
@@ -152,6 +153,24 @@ footer img {
   font-weight: 700;
   line-height: 16.12px;
   font-size: 13px;
+}
+
+.active .feature,
+.active .company {
+  color: #1e1f36;
+  font-weight: 700;
+  line-height: 16.12px;
+  font-size: 13px;
+}
+
+.active .dropdown-mobi li,
+.active .dropdown-container a {
+  display: block;
+}
+
+.active .feature img,
+.active .company img {
+  transform: rotate(180deg);
 }
 
 .nav-list li .feature {
@@ -273,24 +292,6 @@ footer {
 
 .image-2 {
   width: 50px;
-}
-
-.active .feature,
-.active .company {
-  color: #1e1f36;
-  font-weight: 700;
-  line-height: 16.12px;
-  font-size: 13px;
-}
-
-.active .dropdown-mobi li,
-.active .dropdown-container a {
-  display: block;
-}
-
-.active .feature img,
-.active .company img {
-  transform: rotate(180deg);
 }
 
 .wash {
