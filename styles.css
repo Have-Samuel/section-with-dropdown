@@ -298,24 +298,32 @@ footer {
   display: none;
 }
 
-/*  @media (min-width: 1200px) {
+.nav-header_desk {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .humburger {
+    display: none;
+  }
+
   body {
     font-family: 'Epilogue', sans-serif;
     background-color: #dad3d3;
     height: 300px;
     position: relative;
- }
+  }
 
   main {
     width: 1200px;
     height: 650px;
   }
 
-  .nav-header {
+  .nav-header_desk {
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
-    margin-left: 2rem;
+    /* padding: 1rem; */
+    /* margin-left: 2rem; */
   }
 
   .navbar {
@@ -356,15 +364,22 @@ footer {
     align-items: center;
     justify-content: center;
     list-style: none;
-    margin-top: 1rem;
+    margin-top: 0;
+    vertical-align: middle;
   }
 
   .nav-list li {
     margin-left: 1rem;
+    vertical-align: middle;
+  }
+
+  .company {
+    margin-top: 0.9rem;
+    vertical-align: middle;
   }
 
   .second-content {
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
   }
 
   #floater {
@@ -405,4 +420,4 @@ footer {
     margin-left: 10rem;
     margin-top: 21rem;
   }
-} */
+}
