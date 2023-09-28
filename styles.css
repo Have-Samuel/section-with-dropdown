@@ -315,11 +315,12 @@ footer {
     width: 1200px;
     height: 650px;
     position: relative;
+    overflow: hidden;
   }
 
   .des-nav {
     display: flex;
-    padding: 2rem;
+    padding: 1.5rem;
     align-items: center;
     justify-content: space-between;
   }
@@ -340,7 +341,40 @@ footer {
   }
 
   .desktop-list .unit {
-    margin-right: 2rem;
+    margin-right: 1rem;
     justify-content: space-between;
+  }
+
+  .lower-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .second-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imgs-all {
+    background-image: url('./images/image-hero-desktop.png'), cover;
+    background-position: 0% 0% 0%;
+    position: relative;
+    top: 5rem;
+    left: 40rem;
+    
+  }
+
+  .mo-text {
+    position: absolute;
+    top: 10rem;
+    left: 9.5rem;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 5rem;
+    left: 9.5rem;
   }
 }
