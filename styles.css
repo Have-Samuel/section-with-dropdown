@@ -343,6 +343,51 @@ footer {
   .desktop-list .unit {
     margin-right: 1rem;
     justify-content: space-between;
+    height: 1rem;
+  }
+
+  .dropdown-mobi {
+    background-color: #fff;
+    list-style: none;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: #686868;
+    /* margin: auto 1rem; */
+    border-radius: 1rem;
+    margin-right: -2rem;
+  }
+
+  .dropdown-mobi li {
+    display: none;
+    margin-left: 1rem;
+  }
+
+  .dropdown-mobi li:hover {
+    font-weight: 700;
+  }
+
+  .dropdown-container {
+    display: flex;
+    background-color: red;
+    flex-direction: column;
+    padding: 0 1rem;
+    border-radius: 1rem;
+    line-height: 20px;
+    margin-left: 1rem;
+  }
+
+  .dropdown-container a {
+    display: none;
+    text-decoration: none;
+    color: #686868;
+    font-size: 0.7rem;
+    font-weight: 500;
+    margin: 0.5rem 0;
+  }
+
+  .active .dropdown-mobi li,
+  .active .dropdown-container a {
+    margin-right: -2rem;
   }
 
   .lower-sec {
