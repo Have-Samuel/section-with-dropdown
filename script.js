@@ -16,23 +16,7 @@ humburger.addEventListener('click', () => {
   }
 });
 
-// // Clickable arrow to make the dropdown menu appear - 1
-// const arrows = document.querySelectorAll('.drop-drown');
-
-// arrows.addEventListener('click', () => {
-//   arrows.classList.toggle('active');
-//   // arrows.classList.toggle('active');
-//   console.log('Clicked');
-// });
-
-// // Clickable arrow to make the dropdown menu appear - 2
-// const secArrow = document.querySelector('.unit');
-
-// secArrow.addEventListener('click', () => {
-//   secArrow.classList.toggle('active');
-// });
-
-// Clicking on the dropdown
+// Clickable arrow to make the dropdown menu appear
 const drops = document.querySelectorAll('.drop-down');
 
 drops.forEach((drop) => {
@@ -40,7 +24,3 @@ drops.forEach((drop) => {
     drop.classList.toggle('active');
   });
 });
-// feature.addEventListener('click', () => {
-//   feature.classList.toggle('active');
-// });
-
