@@ -362,14 +362,20 @@ footer {
     background-position: 0% 0% 0%;
     position: relative;
     top: 5rem;
-    left: 40rem;
-    
+    left: 42rem;
   }
 
   .mo-text {
     position: absolute;
     top: 10rem;
-    left: 9.5rem;
+    left: 9rem;
+  }
+
+  .title {
+    width: 420px;
+    font-size: 4rem;
+    text-align: left;
+    margin-bottom: 2rem;
   }
 
   footer {
