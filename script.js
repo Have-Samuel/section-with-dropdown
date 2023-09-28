@@ -16,18 +16,30 @@ humburger.addEventListener('click', () => {
   }
 });
 
-// Clickable arrow to make the dropdown menu appear - 1
-const arrows = document.querySelectorAll('.drop-drown');
+// // Clickable arrow to make the dropdown menu appear - 1
+// const arrows = document.querySelectorAll('.drop-drown');
 
-arrows.addEventListener('click', () => {
-  arrows.classList.toggle('active');
-  // arrows.classList.toggle('active');
-  console.log('Clicked');
+// arrows.addEventListener('click', () => {
+//   arrows.classList.toggle('active');
+//   // arrows.classList.toggle('active');
+//   console.log('Clicked');
+// });
+
+// // Clickable arrow to make the dropdown menu appear - 2
+// const secArrow = document.querySelector('.unit');
+
+// secArrow.addEventListener('click', () => {
+//   secArrow.classList.toggle('active');
+// });
+
+// Clicking on the dropdown
+const drops = document.querySelectorAll('.drop-down');
+
+drops.forEach((drop) => {
+  drop.addEventListener('click', () => {
+    drop.classList.toggle('active');
+  });
 });
-
-// Clickable arrow to make the dropdown menu appear - 2
-const secArrow = document.querySelector('.unit');
-
-secArrow.addEventListener('click', () => {
-  secArrow.classList.toggle('active');
-});
+// feature.addEventListener('click', () => {
+//   feature.classList.toggle('active');
+// });
