@@ -291,6 +291,10 @@ footer {
   display: none;
 }
 
+.des-nav {
+  display: none;
+}
+
 @media (min-width: 1200px) {
   .humburger {
     display: none;
@@ -315,17 +319,28 @@ footer {
 
   .des-nav {
     display: flex;
-    padding: 1.5rem;
-    justify-content: space-between;
+    padding: 2rem;
     align-items: center;
+    justify-content: space-between;
+  }
+
+  .des-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* margin-right: -3rem; */
   }
 
   .desktop-list {
     display: flex;
-    align-items: center;
+    margin-right: 21rem;
     gap: 2rem;
     list-style: none;
-    color: red;
-    cursor: pointer;
+    align-items: center;
+  }
+
+  .desktop-list .unit {
+    margin-right: 2rem;
+    justify-content: space-between;
   }
 }
