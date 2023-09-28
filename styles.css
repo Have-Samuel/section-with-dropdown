@@ -291,8 +291,12 @@ footer {
   display: none;
 }
 
-/* @media (min-width: 1200px) {
+@media (min-width: 1200px) {
   .humburger {
+    display: none;
+  }
+
+  .topnav {
     display: none;
   }
 
