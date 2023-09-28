@@ -312,4 +312,20 @@ footer {
     height: 650px;
     position: relative;
   }
+
+  .des-nav {
+    display: flex;
+    padding: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .desktop-list {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    color: red;
+    cursor: pointer;
+  }
 }
