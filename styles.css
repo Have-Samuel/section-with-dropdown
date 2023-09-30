@@ -323,13 +323,14 @@ footer {
     display: flex;
     padding: 1.5rem;
     align-items: center;
-    justify-content: space-between;
+    gap: 3rem;
   }
 
   .des-list {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    gap: 6rem;
   }
 
   .desktop-list {
@@ -389,6 +390,17 @@ footer {
   .active .dropdown-mobi li,
   .active .dropdown-container a {
     margin-right: -2rem;
+  }
+
+  button {
+    color: #686868;
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    text-decoration: none;
+    border: 1px solid #686868;
+    background-color: #fff;
   }
 
   .lower-sec {
