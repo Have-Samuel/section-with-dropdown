@@ -313,7 +313,7 @@ footer {
 
   main {
     width: 1200px;
-    margin: 0 auto;
+    margin: 2rem auto;
     height: 650px;
     position: relative;
     overflow: hidden;
@@ -347,19 +347,19 @@ footer {
   }
 
   .dropdown-mobi {
-    background-color: #fff;
-    list-style: none;
-    font-size: 0.7rem;
-    font-weight: 500;
-    color: #686868;
-    /* margin: auto 1rem; */
-    border-radius: 1rem;
     margin-right: -2rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 0 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;;
   }
 
   .dropdown-mobi li {
     display: none;
-    margin-left: 1rem;
+    line-height: 28px;
+    /* background-color: red; */
+    /* padding: 0 2.5rem; */
+    margin-left: -0.5rem;
   }
 
   .dropdown-mobi li:hover {
@@ -368,12 +368,13 @@ footer {
 
   .dropdown-container {
     display: flex;
-    background-color: red;
+    background-color: #fff;
     flex-direction: column;
     padding: 0 1rem;
-    border-radius: 1rem;
-    line-height: 20px;
+    border-radius: 0.5rem;
+    line-height: 10px;
     margin-left: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
   }
 
   .dropdown-container a {
