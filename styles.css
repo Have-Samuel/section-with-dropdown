@@ -141,6 +141,12 @@ main {
   box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
 }
 
+.mo-text a:hover {
+  color: #070707;
+  background-color: #fff;
+  border: 1px solid black;
+}
+
 .dropdown-container a:hover {
   cursor: pointer;
   font-weight: 700;
@@ -341,6 +347,23 @@ footer {
     align-items: center;
   }
 
+  .feature-des,
+  .company-des,
+  .unit {
+    color: #686868;
+    font-size: 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  .feature-des,
+  .company-des {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-left: 0.4rem;
+  }
+
   .desktop-list .unit {
     margin-right: 1rem;
     justify-content: space-between;
@@ -352,14 +375,12 @@ footer {
     background-color: #fff;
     border-radius: 0.5rem;
     padding: 0 1rem;
-    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
   }
 
   .dropdown-mobi li {
     display: none;
     line-height: 28px;
-    /* background-color: red; */
-    /* padding: 0 2.5rem; */
     margin-left: -0.5rem;
   }
 
@@ -385,11 +406,6 @@ footer {
     font-size: 0.7rem;
     font-weight: 500;
     margin: 0.5rem 0;
-  }
-
-  .active .dropdown-mobi li,
-  .active .dropdown-container a {
-    margin-right: -2rem;
   }
 
   button {
@@ -453,5 +469,15 @@ footer {
     position: absolute;
     bottom: 2rem;
     left: 9.5rem;
+  }
+
+  .active .dropdown-mobi li,
+  .active .dropdown-container a {
+    display: block;
+  }
+
+  .active .feature-des img,
+  .active .company-des img {
+    transform: rotate(180deg);
   }
 }
