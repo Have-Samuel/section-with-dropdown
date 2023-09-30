@@ -141,6 +141,12 @@ main {
   box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
 }
 
+.mo-text a:hover {
+  color: #070707;
+  background-color: #fff;
+  border: 1px solid black;
+}
+
 .dropdown-container a:hover {
   cursor: pointer;
   font-weight: 700;
@@ -313,7 +319,7 @@ footer {
 
   main {
     width: 1200px;
-    margin: 0 auto;
+    margin: 2rem auto;
     height: 650px;
     position: relative;
     overflow: hidden;
@@ -323,13 +329,14 @@ footer {
     display: flex;
     padding: 1.5rem;
     align-items: center;
-    justify-content: space-between;
+    gap: 3rem;
   }
 
   .des-list {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    gap: 6rem;
   }
 
   .desktop-list {
@@ -340,6 +347,23 @@ footer {
     align-items: center;
   }
 
+  .feature-des,
+  .company-des,
+  .unit {
+    color: #686868;
+    font-size: 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  .feature-des,
+  .company-des {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-left: 0.4rem;
+  }
+
   .desktop-list .unit {
     margin-right: 1rem;
     justify-content: space-between;
@@ -347,19 +371,17 @@ footer {
   }
 
   .dropdown-mobi {
-    background-color: #fff;
-    list-style: none;
-    font-size: 0.7rem;
-    font-weight: 500;
-    color: #686868;
-    /* margin: auto 1rem; */
-    border-radius: 1rem;
     margin-right: -2rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 0 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
   }
 
   .dropdown-mobi li {
     display: none;
-    margin-left: 1rem;
+    line-height: 28px;
+    margin-left: -0.5rem;
   }
 
   .dropdown-mobi li:hover {
@@ -368,12 +390,13 @@ footer {
 
   .dropdown-container {
     display: flex;
-    background-color: red;
+    background-color: #fff;
     flex-direction: column;
     padding: 0 1rem;
-    border-radius: 1rem;
-    line-height: 20px;
+    border-radius: 0.5rem;
+    line-height: 10px;
     margin-left: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
   }
 
   .dropdown-container a {
@@ -385,9 +408,15 @@ footer {
     margin: 0.5rem 0;
   }
 
-  .active .dropdown-mobi li,
-  .active .dropdown-container a {
-    margin-right: -2rem;
+  button {
+    color: #686868;
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    text-decoration: none;
+    border: 1px solid #686868;
+    background-color: #fff;
   }
 
   .lower-sec {
@@ -440,5 +469,15 @@ footer {
     position: absolute;
     bottom: 2rem;
     left: 9.5rem;
+  }
+
+  .active .dropdown-mobi li,
+  .active .dropdown-container a {
+    display: block;
+  }
+
+  .active .feature-des img,
+  .active .company-des img {
+    transform: rotate(180deg);
   }
 }
