@@ -78,7 +78,7 @@ Users should be able to:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Have-Samuel/expenses-chart-component/issues).
+Feel free to check the [issues page](https://github.com/Have-Samuel/section-with-dropdown/issues).
 
 ## Show your support
 
