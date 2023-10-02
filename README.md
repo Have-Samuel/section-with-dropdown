@@ -39,7 +39,7 @@ Users should be able to:
 ![](./design/mobile-menu-collapsed.jpg)
 
 ### Mobile
-![](.design/mobile-menu-expanded.jpg)
+![](./design/design/mobile-menu-expanded.jpg)
 
 ### Desktop
 ![](./design/desktop-design.jpg)
