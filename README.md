@@ -36,7 +36,7 @@ Users should be able to:
 ![](.design/mobile-menu.jpg)
 
 ### Mobile
-![](.design/mobile-menu-collapsed.jpg)
+![](./design/mobile-menu-collapsed.jpg)
 
 ### Mobile
 ![](.design/mobile-menu-expanded.jpg)
