@@ -33,9 +33,6 @@ Users should be able to:
 ![](./design/mobile-design.jpg)
 
 ### Mobile
-![](./design/mobile-menu.jpg)
-
-### Mobile
 ![](./design/mobile-menu-collapsed.jpg)
 
 ### Mobile
