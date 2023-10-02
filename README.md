@@ -32,10 +32,10 @@ Users should be able to:
 ### Mobile
 ![](./design/mobile-design.jpg)
 
-### Mobile
+### Mobile menu-collapsed
 ![](./design/mobile-menu-collapsed.jpg)
 
-### Mobile
+### Mobile menu-expanded
 ![](./design/mobile-menu-expanded.jpg)
 
 ### Desktop
