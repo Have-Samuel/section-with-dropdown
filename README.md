@@ -33,13 +33,10 @@ Users should be able to:
 ![](./design/mobile-design.jpg)
 
 ### Mobile
-![](./mobile-menu.jpg)
+![](.design/mobile-menu-collapsed.jpg)
 
 ### Mobile
-![](./mobile-menu-collapsed.jpg)
-
-### Mobile
-![](./mobile-menu-expanded.jpg)
+![](.design/mobile-menu-expanded.jpg)
 
 ### Desktop
 ![](./design/desktop-design.jpg)
