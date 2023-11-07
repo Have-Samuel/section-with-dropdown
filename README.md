@@ -77,7 +77,6 @@ Feel free to check the [issues page](https://github.com/Have-Samuel/section-with
 ## Show your support
 
 Give a ⭐️ if you like this project!
-## Acknowledgments
 
 - 🎉 Thanks to Frontend Mentor 
 - 👋 Thumbs Up to [@Trekab] 🤝 (https://github.com/trekab)
