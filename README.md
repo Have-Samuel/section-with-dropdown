@@ -1,6 +1,6 @@
 # Frontend Mentor - Intro section with dropdown navigation solution
 
-This is a solution to the [Intro section with dropdown navigation challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Intro section with dropdown navigation challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -20,6 +20,7 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
 ### The challenge
 
 Users should be able to:
+
 - View the relevant dropdown menus on desktop and mobile when interacting with the navigation links
 - View the optimal layout for the content depending on their device's screen size
 - See hover states for all interactive elements on the page
@@ -27,18 +28,23 @@ Users should be able to:
 ### Screenshot
 
 ### Mobile
+
 ![](./design/mobile-design.jpg)
 
 ### Mobile menu-collapsed
+
 ![](./design/mobile-menu-collapsed.jpg)
 
 ### Mobile menu-expanded
+
 ![](./design/mobile-menu-expanded.jpg)
 
 ### Desktop
+
 ![](./design/desktop-design.jpg)
 
 ### Desktop
+
 ![](./design/active-states.jpg)
 
 ### Links
@@ -78,8 +84,8 @@ Feel free to check the [issues page](https://github.com/Have-Samuel/section-with
 
 Give a ⭐️ if you like this project!
 
-- 🎉 Thanks to Frontend Mentor 
-- 👋 Thumbs Up to [@Trekab] 🤝 (https://github.com/trekab)
+- 🎉 Thanks to Frontend Mentor
+- 👋 Thumbs Up to [@Trekab] 🤝 (<https://github.com/trekab>)
 - etc
 
 ## 📝 License
